@@ -1,4 +1,4 @@
-export default function shuffle(array) {
+export function shuffle(array) {
 
     const length = array.length;
 
