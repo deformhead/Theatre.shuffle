@@ -1,4 +1,4 @@
-export function shuffle(array) {
+function shuffle(array) {
 
     const length = array.length;
 
@@ -18,4 +18,10 @@ export function shuffle(array) {
             array[target] = temporary;
         }
     }
-};
+
+    // returns given array with mutation
+    return array;
+}
+
+// exports current module as a function
+export {shuffle};
